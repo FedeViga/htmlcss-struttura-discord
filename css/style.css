@@ -92,3 +92,8 @@ section .container {
 
     width: 476px;
 }
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+/* fine main */
