@@ -51,3 +51,20 @@ nav .login {
     text-align: right;
 }
 /* fine nav */
+
+/* header */
+#hero {
+    background-color: #00008b;
+    padding: 50px 20px;
+}
+
+.container-small {
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    height: 396px;
+    /* test */
+
+    max-width: 903px;
+    margin: auto;
+}
+/* fine header */
