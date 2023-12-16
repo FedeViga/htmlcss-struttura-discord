@@ -46,6 +46,11 @@ nav .links {
     gap: 10px;
 }
 
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
 nav .login {
     width: 238px;
     text-align: right;
