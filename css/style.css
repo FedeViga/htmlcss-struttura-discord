@@ -68,3 +68,27 @@ nav .login {
     margin: auto;
 }
 /* fine header */
+
+/* main */
+section {
+    padding: 50px 20px;
+}
+
+section .container {
+    display: flex;
+}
+
+.big {
+    background-color: #1e90ff;
+    height: 496px;
+    /* test */
+
+    flex-grow: 1;
+}
+
+.small {
+    background-color: #ffc0cb;
+    /* test */
+
+    width: 476px;
+}
