@@ -4,3 +4,50 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* container */
+.container {
+    max-width: 1193px;
+    margin: auto;
+}
+
+/* test */
+.container > * {
+    border: 2px dashed black;
+}
+/* fine container */
+
+
+/* nav */
+nav {
+    background-color: #ADD8E6;
+    padding: 17px;
+}
+
+nav .container {
+    background-color: #daa520;
+    display: flex;
+    
+}
+
+nav .container > * {
+    padding: 14px 8px;
+}
+
+nav .logo {
+    width: 238px;
+}
+
+nav .links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav .login {
+    width: 238px;
+    text-align: right;
+}
+/* fine nav */
