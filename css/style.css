@@ -105,3 +105,57 @@ section .container {
     flex-grow: 1;
 }
 /* fine main */
+
+
+/* footer */
+footer {
+    background-color: #23272a;
+    /* test */
+
+    padding: 10px 20px 0px 20px;
+    
+}
+
+#footer-top {
+    display: flex;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.footer-big {
+    background-color: #f08080;
+    height: 575px;
+    /* test */
+
+    width: 357px;
+}
+
+#footer-top-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-small {
+    background-color: #20b2aa;
+    border: 2px dashed white;
+    /* test */
+
+    width: 25%;
+}
+
+#footer-bottom {
+    background-color: #7fffd4;
+    /* test */
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 18px 0px;
+}
+
+#footer-bottom > * {
+    background-color: #ffb6c1;
+    padding: 4px 6px;
+
+}
+/* fine footer */
