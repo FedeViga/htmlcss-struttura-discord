@@ -96,4 +96,12 @@ section .container {
 .bg-gray {
     background-color: #d3d3d3;
 }
+
+.long {
+    background-color: #228b22;
+    height: 893px;
+    /* test */
+
+    flex-grow: 1;
+}
 /* fine main */
